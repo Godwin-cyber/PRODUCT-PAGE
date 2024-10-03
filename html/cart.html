@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Products</a></li>
+                <li><a href="#footer">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Cart Section -->
+    <section id="cart-section">
+        <h2>Shopping Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Cart items will be displayed here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Subtotal:</td>
+                    <td id="subtotal">$0.00</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="3">Tax (8%):</td>
+                    <td id="tax">$0.00</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="3">Total:</td>
+                    <td id="total">$0.00</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        <button id="checkout-btn">Checkout</button>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer id="footer">
+        <p>About Us: We are a multinational technology company that deals with e-commerce, cloud computing, digital streaming, and artificial intelligence.</p>
+        <ul>
+            <li>Contact: <a href="mailto:info@example.com">info@example.com</a></li>
+            <li>Phone: 123-456-7890</li>
+        </ul>
+        <ul class="social-media">
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+    
+    <script src="../js/script.js"></script>
+    <script src="../js/cart-script.js"></script>
+</body>
+</html>
